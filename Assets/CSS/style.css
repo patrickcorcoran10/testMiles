@@ -1,0 +1,112 @@
+*{
+    background-color:#d4d6cf;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#navbar {
+    background-color:#013A20;
+    font-size:30px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+.h1 {
+    font-size: 60px;   
+}
+
+.h2 {
+    font-size:30px; 
+    margin-top:20px; 
+}
+
+p {
+    margin-top:20px;
+    font-size:20px;   
+}
+
+header a {
+    background-color: #013A20;
+    color:#d4d6cf;
+}
+
+section a{
+    background-color:#3f4122;
+}
+
+a:visited {
+    color:black    
+}
+
+.card {
+    flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style:solid;
+  border-color:black;
+  border-width:5px;
+  margin-top: 20px;
+  margin-left:10px;
+  margin-right:10px;
+  height:500px;
+  min-width:500px;
+  max-width:500px;
+  background-color:#3f4122;
+    display:block;
+     display:flex;
+  
+}
+
+.main-card {
+    flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style:solid;
+  border-color:black;
+  border-width:5px;
+  margin-top: 20px;
+  margin-left:10px;
+  margin-right:10px;
+  height:500px;
+  min-width:1000px;
+  background-color:#3f4122;
+    display:block;
+     display:flex;
+  
+}
+
+.h3 {
+    font-size:20px;
+    background-color:#3f4122;
+    margin-bottom: 10px;
+}
+
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+    min-height: 400px;
+    min-width: 400px;
+}
+
+
+div {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#contactme {
+    display:inline;
+}
+
+#contactme p {
+    display:inline
+}
+
+.grid {
+    grid-row:1/span 2;
+}
+ @media screen and (max-width:600px) { 
+     .main-card {
+        max-width:500px; 
+
+    }
+} 
